@@ -1,0 +1,5 @@
+- [ ] finish reviewing the material on distill
+- [ ] separate the useful code from the visualization et alia and put it into a separate notebook
+    - [ ] create a git repo to track everything (it will be the project repo)
+- [ ] run some experiments
+- [ ] play around with visualizing what the network learns => convnets are quite interpretable, remember? ==> section 9.4, Chollet!
