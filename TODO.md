@@ -1,5 +1,7 @@
-- [ ] finish reviewing the material on distill
-- [ ] separate the useful code from the visualization et alia and put it into a separate notebook
-    - [ ] create a git repo to track everything (it will be the project repo)
+- [x] finish reviewing the material on distill
+- [x] separate the useful code from the visualization et alia and put it into a separate notebook
+  - [x] create a git repo to track everything (it will be the project repo)
+- [ ] check that training progresses as it should (something weird seems to be happening?)
+  - [ ] check the tensor shapes and track everything (!)
 - [ ] run some experiments
 - [ ] play around with visualizing what the network learns => convnets are quite interpretable, remember? ==> section 9.4, Chollet!
