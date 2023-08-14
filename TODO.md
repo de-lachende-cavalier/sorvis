@@ -4,6 +4,7 @@
 - [x] check that training progresses as it should (something weird seems to be happening?)
   - [x] check the tensor shapes and track everything (!)
 - [ ] read and understand the mnist CA distill article and rebuild the model (in simplified form, as before)
+- [ ] make the main notebook more verbose
 - [ ] download quick! draw data (only some classes are enough, probably)
 - [ ] run some experiments (check notes!)
 - [ ] play around with visualizing what the network learns => convnets are quite interpretable, remember? ==> section 9.4, Chollet!
