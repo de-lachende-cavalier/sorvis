@@ -167,4 +167,5 @@ cython_debug/
 share/
 
 # Misc
-backedup_logs
+backedup_logs/
+quickdraw_data/
