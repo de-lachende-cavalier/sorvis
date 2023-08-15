@@ -4,7 +4,7 @@ import os
 import urllib.request
 
 
-def load_valid_categories(filename="quickdraw_categories.txt"):
+def load_valid_categories(filename="utils/quickdraw_categories.txt"):
     """Load the list of valid categories from the .txt file."""
     with open(filename, "r") as file:
         return [line.strip() for line in file]
@@ -17,9 +17,9 @@ def download_quickdraw_data(category):
     def download_progress_hook(count, block_size, total_size):
         """Display and update the download progress."""
         percent = int(count * block_size * 100 / total_size)
-        print(f"\rdownloading {category} data... {percent}%", end="")
+        print(f"\r[+] downloading {category} data... {percent}%", end="")
         if percent == 100:
-            print("\ndownload complete!\n")
+            print("\n[+] download complete!\n")
 
     urllib.request.urlretrieve(
         url, f"{category}.ndjson", reporthook=download_progress_hook
@@ -72,9 +72,9 @@ def main():
     download_quickdraw_data(args.category)
 
     if args.clean:
-        print(f"cleaning up {args.category} data...")
+        print(f"[+] cleaning up {args.category} data...")
         clean_ndjson(f"{args.category}.ndjson")
-        print(f"{args.category} data cleaned successfully.")
+        print(f"[+] {args.category} data cleaned successfully.")
 
 
 if __name__ == "__main__":
