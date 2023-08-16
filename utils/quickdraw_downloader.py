@@ -10,7 +10,7 @@ def load_valid_categories(filename="utils/quickdraw_categories.txt"):
         return [line.strip() for line in file]
 
 
-def download_quickdraw_data(category):
+def download_quickdraw_data(category, save_dir):
     """Download the QuickDraw data for a given category."""
     url = f"https://storage.googleapis.com/quickdraw_dataset/full/simplified/{category}.ndjson"
 
@@ -19,11 +19,10 @@ def download_quickdraw_data(category):
         percent = int(count * block_size * 100 / total_size)
         print(f"\r[+] downloading {category} data... {percent}%", end="")
         if percent == 100:
-            print("\n[+] download complete!\n")
+            print("\n[+] download complete!")
 
-    urllib.request.urlretrieve(
-        url, f"{category}.ndjson", reporthook=download_progress_hook
-    )
+    save_path = os.path.join(save_dir, f"{category}.ndjson")
+    urllib.request.urlretrieve(url, save_path, reporthook=download_progress_hook)
 
 
 def clean_ndjson(filename):
@@ -61,19 +60,18 @@ def main():
         help="clean up the .ndjson file to retain only recognized drawings.",
     )
     args = parser.parse_args()
+    print()  # for ease of reading
 
     valid_categories = load_valid_categories()
     if args.category not in valid_categories:
         print(f"'{args.category}' is not a valid category!")
         return
 
-    os.chdir(args.dir)
-
-    download_quickdraw_data(args.category)
+    download_quickdraw_data(args.category, args.dir)
 
     if args.clean:
         print(f"[+] cleaning up {args.category} data...")
-        clean_ndjson(f"{args.category}.ndjson")
+        clean_ndjson(os.path.join(args.dir, f"{args.category}.ndjson"))
         print(f"[+] {args.category} data cleaned successfully.")
 
 

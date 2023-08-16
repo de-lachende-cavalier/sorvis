@@ -46,11 +46,12 @@ if __name__ == "__main__":
     )
     parser.add_argument("file", type=str, help="the name of the target file")
     args = parser.parse_args()
+    print()
 
     data_dir = "quickdraw_data/"
     target_file = args.file
 
-    print("[+] commencing splitting...")
+    print(f"[+] commencing splitting of {data_dir + args.file}...")
     split_file(
         data_dir + target_file,
         data_dir + "train_" + target_file,
