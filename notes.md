@@ -30,6 +30,7 @@
 
 - NCA cooordination => what if I want to classify numbers > 9? E.g. if I want to classify "12", can I make it so the cells for "1" and "2" coordinate and "classify" "12" correctly?
 - Cells are (simple) agents => can't I use RL to speed up convergence? Right now I spend a lot of time bouncing around (check loss history!)
+  - What about MCTS? (Far fetched, but still...)
 
 ## References
 
