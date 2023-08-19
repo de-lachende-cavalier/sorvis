@@ -26,6 +26,11 @@
 
 "Here we aim to build a CA model that not only has regenerative properties, but also has the ability to correct itself when the shape of the overall digit changes."[2]
 
+## Some interesting experiment ideas
+
+- NCA cooordination => what if I want to classify numbers > 9? E.g. if I want to classify "12", can I make it so the cells for "1" and "2" coordinate and "classify" "12" correctly?
+- Cells are (simple) agents => can't I use RL to speed up convergence? Right now I spend a lot of time bouncing around (check loss history!)
+
 ## References
 
 - Growing Neural Cellular Automata, Mordvintsev et al., Distill [1](https://distill.pub/2020/growing-ca)
