@@ -16,7 +16,7 @@
 - NCAs grow and branch out somewhat like the [Mycelium](https://en.wikipedia.org/wiki/Mycelium)! Fractal Geometry of (Artificial) Nature? Interesting thought...
 
 - The MNIST CA case investigates the question: "can CAs use local message passing to achieve global agreement on what digit they compose?"[2], and it gives an affirmative answer!
-  - So, why not use just a subset of the "Quick! Draw" classes, and train mininets on single elements of the figure (e.g. if we draw a car, we can have a mininet classify the wheels, one the windows, one the doors, etc...). This would allow one to study the interesting case in which NCAs need to cooperate! (i.e. the sub-routine bullet point above)
+  - So, why not use just a subset of the "Quick! Draw" classes, and train mininets on single elements of the figure (e.g. if we draw a car, we can have a mininet classify the wheels, one the windows, one the doors, etc...). This would allow one to study the interesting case in which NCAs need to cooperate! (i.e. the sub-routine bullet point above) => look at experiments section below!
 
 "Therefore, while they (the cells) do not know where they are, they do know where up, down, left and right are. The biological analogy here is a situation where the remodeling structures exist in the context of a larger body and a set of morphogen gradients or tissue polarity that indicate directional information with respect to the three major body axes."[2]
 
@@ -29,9 +29,11 @@
 ## Some interesting experiment ideas
 
 - NCA cooordination => what if I want to classify numbers > 9? E.g. if I want to classify "12", can I make it so the cells for "1" and "2" coordinate and "classify" "12" correctly?
+
 - Cells are (simple) agents => can't I use RL ~~to speed up convergence~~? Right now I spend a lot of time bouncing around (check loss history!)
   - What about MCTS? (Far fetched, but still...)
-- I have pretrained models at my disposal! => Imitation learning?
+  - I have pretrained models at my disposal! => Imitation learning?
+=> ***OUT OF SCOPE**
 
 ## References
 
