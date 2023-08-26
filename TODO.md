@@ -10,4 +10,9 @@
 - [ ] make the main notebook more verbose
 - [ ] write a better README!
 
-- [ ] include some results by Risi et al. in the presentation
+## Presentation
+- [ ] include some results by Risi et al.
+- [ ] looking to the future
+    - LLM -> RL coordinator; RL coordinator -> NCA; NCA -> growing desired result
+    - "grow me an eye", e.g.
+    - big hero 6, e.g.
