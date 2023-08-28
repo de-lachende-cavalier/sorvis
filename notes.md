@@ -1,4 +1,4 @@
-# A collection of notes about NCAs useful for the final report/presentation/personal use
+# Some notes about NCAs
 
 "What is clear is that evolution has learned to exploit the laws of physics and computation to implement the highly robust morphogenetic software that runs on genome-encoded cellular hardware."[1]
 
@@ -29,11 +29,12 @@
 ## Some interesting experiment ideas
 
 - NCA cooordination => what if I want to classify numbers > 9? E.g. if I want to classify "12", can I make it so the cells for "1" and "2" coordinate and "classify" "12" correctly?
+  - Need to mantain locality of NCAs (else it would be cheating!)
 
-- Cells are (simple) agents => can't I use RL ~~to speed up convergence~~? Right now I spend a lot of time bouncing around (check loss history!)
+- Cells are (simple) agents => can't I use RL ~~to speed up convergence~~?
   - What about MCTS? (Far fetched, but still...)
-  - I have pretrained models at my disposal! => Imitation learning?
-=> ***OUT OF SCOPE**
+  - I have pretrained models at my disposal => imitation learning?
+  - **OUT OF SCOPE!**
 
 ## References
 
