@@ -6,8 +6,7 @@
 - [x] read and understand the mnist CA distill article and rebuild the model (in simplified form, as before)
 - [x] download quick! draw data (only some classes are enough, probably)
 - [x] switch back to MNIST for further experiments (we have pretty good pretrained models at our disposal for that!)
-- [ ] run some experiments (check notes!)
-- [ ] make the main notebook more verbose
+- [x] run some experiments (check notes!)
 - [ ] write a better README!
 
 ## Presentation
