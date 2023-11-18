@@ -3,7 +3,7 @@
 "What is clear is that evolution has learned to exploit the laws of physics and computation to implement the highly robust morphogenetic software that runs on genome-encoded cellular hardware."[1]
 
 - Need to find out the algorithms at the base of morphogenesis
-- Multiple subroutines (e.g. "build an eye here") => how many? how complex? how do they interact? what about building "micro" networks and coordinating them? => I smell RL...
+- Multiple subroutines (e.g. "build an eye here") => how many? how complex? how do they interact? what about building "micro" networks and coordinating them? => I smell MARL...
 
 "Imagine if we could design systems of the same plasticity and robustness as biological life: structures and machines that could grow and repair themselves."[1]
 
