@@ -13,7 +13,8 @@ The organisation is quite intuitive:
 - *classifying_NCAs_mnist.ipynb:* same as above, but for the MNIST dataset
 - *notes.md:* contains some miscellaneous interesting notes derived from the articles on Distill
 
-- *mini_experiments:* a mostly inactive directory, meant for some small experiments somewhat related to the main content
+- *mini_experiments/:* a mostly inactive directory, meant for some small experiments somewhat related to the main content
+- *utils/:* contains python utilites, mostly for downlading the Quick! Draw dataset
 
 ## Running the code
 
