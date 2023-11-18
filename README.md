@@ -13,6 +13,8 @@ The organisation is quite intuitive:
 - *classifying_NCAs_mnist.ipynb:* same as above, but for the MNIST dataset
 - *notes.md:* contains some miscellaneous interesting notes derived from the articles on Distill
 
+- *mini_experiments:* a mostly inactive directory, meant for some small experiments somewhat related to the main content
+
 ## Running the code
 
 To run the code, simply start up a virtual environment (I used venv, but conda would probably work as well) and then install all the requirements, i.e.,
