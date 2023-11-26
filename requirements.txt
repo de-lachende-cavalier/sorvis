@@ -31,13 +31,6 @@ flatbuffers==23.5.26
 fonttools==4.42.0
 frozenlist==1.4.0
 gast==0.4.0
-gcs-oauth2-boto-plugin==3.0
-google-apitools==0.5.32
-google-auth==2.22.0
-google-auth-oauthlib==1.0.0
-google-pasta==0.2.0
-google-reauth==0.1.1
-googleapis-common-protos==1.60.0
 grpcio==1.57.0
 gsutil==5.25
 h5py==3.9.0
@@ -99,9 +92,7 @@ tensorboard-data-server==0.7.1
 tensorflow==2.13.0
 tensorflow-datasets==4.9.2
 tensorflow-estimator==2.13.0
-tensorflow-macos==2.13.0
 tensorflow-metadata==1.14.0
-tensorflow-metal==1.0.1
 termcolor==2.3.0
 toml==0.10.2
 tornado==6.3.2
