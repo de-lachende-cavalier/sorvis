@@ -169,5 +169,4 @@ cython_debug/
 share/
 
 # Misc
-train_log/
 quickdraw_data/
